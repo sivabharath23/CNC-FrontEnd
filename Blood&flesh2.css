@@ -1,257 +1,233 @@
-body{    
-    padding:0px;
-    margin:0px;
-    width:100%;
-    height:100vh;
-    /* font-family: sans-serif; */
+body {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100vh;
+  /* font-family: sans-serif; */
 }
-.container-top{
-    
-    background-image: url("IMG/434105.jpg");
-    padding:0px;
-    margin:0px;
-    position: relative;
-    overflow: hidden;
-
+.container-top {
+  background-image: url("IMG/434105.jpg");
+  padding: 20px 0px 0px 0px;
+  margin: 0px;
+  overflow: hidden;
 }
+.menu{
+  text-align:left;
+  display: inline;
+  /* position:fixed; */
+}
+  
 .menu ul{
-    list-style: none;
-
+  display:inline;
+}
+.menu ul li{
+   font-size: 18px;
+   display:inline;
+   flex-direction: column;
+   padding:10px;  
 }
 
 .menu a{
-    text-decoration: none;
-    color:rgb(255, 255, 255);
-    
-    
-    
+  color:#fefefe;
+  text-decoration: none;
+  transition: 0.2s ease;
+  
 }
 
 .menu a:hover{
-    color:orange;
-    
+  color:#fdb308; 
 }
 
-.menu li{
-    float:left;
-    padding:15px;
-    padding-top:10px;
-
+.srch {
+  padding: 0px;
+  margin: 0px;
+  margin-top: 10px;
+  margin-right: 10px;
+  float: right;
 }
 
-.menu{ 
-    
+.search {
+  font-family: "Times New Roman";
+  background: transparent;
+  border: 1px solid #ff7200;
+  color: #0c0c0c;
+  border-right: none;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.srch-btn {
+  background: #ff7200;
+  border: 1px solid #ff7200;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  border-left: none;
+  transition: 0.2s ease;
+  cursor: pointer;
+  margin-right: 70px;
 }
 
-.srch{
-    padding:0px;
-    margin:0px;
-    margin-top:30px;
-    margin-right:10px;
-    float:right;
+.srch-btn:hover {
+  transform: scale(1.1);
 }
 
-.search{
-    font-family: 'Times New Roman';
-    background: transparent;
-    border: 1px solid #ff7200;
-    color: #0c0c0c;
-    border-right: none;
-    font-size: 18px;
-    border-radius: 5px;
-    
-
-}
-.srch-btn{
-    background: #ff7200;
-    border: 1px solid #ff7200;
-    color: #fff;
-    font-size: 18px;
-    border-radius: 5px;
-    border-left: none;
-    transition: 0.2s ease;
-    cursor: pointer;
-    margin-right:70px;
-    
-
+.content {
+  text-align: center;
+  justify-content: center;
+  margin-right: 3%;
 }
 
-.srch-btn:hover{
-    transform: scale(1.1);
-    
+.content h1 {
+  color: rgb(255, 166, 0);
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 65px;
 }
 
-.content{
-    text-align:center;
-    justify-content: center;
-    margin-right: 3%;
+.content h2 {
+  font-size: 22px;
+}
+.content p {
+  margin-top: 50px;
+  font-size: 20px;
+  margin-bottom: 0px;
 }
 
-.content h1{
-    color:rgb(255, 166, 0);
-    font-family:'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size:65px;
+.content a {
+  margin-top: 0px;
+  padding: 30px;
+}
+.content img {
+  padding: 15px;
+}
+.content img:hover {
+  transform: scale(1.1);
 }
 
-.content h2{
-       font-size:22px;
+.join-btn {
+  text-align: center;
+  width: 100px;
+  padding: 0px;
+  margin: auto;
+  display: flex;
+  font-size: 18px;
+  display: grid;
 }
-.content p{
-    margin-top: 50px ;
-    font-size: 20px;
-    margin-bottom: 0px;
-}
-
-.content a{
-    margin-top:0px;
-    padding:30px;
-
-}
-.content img{
-    padding:15px;
-}
-.content img:hover{
-    transform: scale(1.1);
-}
-
-
-
-.join-btn{
-    text-align: center;
-    width:100px;
-    padding:0px;
-    margin:auto;
-    display:flex;
-    font-sixe:18px;
-    display:grid;
-    
-}
-.join-btn a{
-  font-size:large;
+.join-btn a {
+  font-size: large;
   font-family: roboto;
-  background:transparent;
-  color:black;
+  background: transparent;
+  color: black;
   border-radius: 5px;
   text-align: center;
   padding: 8px;
-  transition: 0.10s ease;
-  text-decoration:none;
+  transition: 0.1s ease;
+  text-decoration: none;
 }
 
-.join-btn a:hover{
-
-    background-color:rgb(248, 248, 248);
-    color:orange;
+.join-btn a:hover {
+  background-color: rgb(248, 248, 248);
+  color: orange;
 }
 
-
-.cnc{
-    text-align:left;
-    margin-top:40px;
-    text-decoration: none;
-    margin-left: 100px;
-    font-size: 22px;
-    
+.cnc {
+  text-align: left;
+  margin-top: 40px;
+  text-decoration: none;
+  margin-left: 100px;
+  font-size: 22px;
 }
 
-.cnc a{
-   text-decoration: none;
-   color:black;
-   
+.cnc a {
+  text-decoration: none;
+  color: black;
 }
-.cnc h2{
-    
+.cnc h2 {
 }
-.cnc ul
-{
-     margin-left:60px;
+.cnc ul {
+  margin-left: 60px;
 }
-.cnc a{
-    color:#0a0a0a
+.cnc a {
+  color: #0a0a0a;
 }
-.mac{
-    float:left;
-    margin-left:120px;
-    
+.mac {
+  float: left;
+  margin-left: 120px;
 }
 
-.tool1{
-    float:right;
-    margin-top:130px;
-    margin-right: 120px;
-
+.tool1 {
+  float: right;
+  margin-top: 130px;
+  margin-right: 120px;
 }
 
-.tool2{
-
-    margin:100px 34% 100px 0px;
-    text-align: center;
-    justify-items: center;
-    position: relative;
-    float:right;
+.tool2 {
+  margin: 100px 34% 100px 0px;
+  text-align: center;
+  justify-items: center;
+  position: relative;
+  float: right;
 }
 
-.login{
-    text-align: center;
-    font-family:open sans;
-    font-size: 20px;
-    background: transparent;
+.login {
+  text-align: center;
+  font-family: open sans;
+  font-size: 20px;
+  background: transparent;
 }
 
-.icons{
-    text-align:center;
+.icons {
+  text-align: center;
 }
 
-.login input{
-    background:transparent;
-    width:200px;
-    border-radius: 5px;
-    border-color: #fefefe;
+.login input {
+  background: transparent;
+  width: 200px;
+  border-radius: 5px;
+  border-color: #fefefe;
 }
-.log-btn{
-    background: transparent;
-    border-radius: 5px;
-    width:70px;
+.log-btn {
+  background: transparent;
+  border-radius: 5px;
+  width: 70px;
 }
-.log-btn:hover{
-    background-color: orange;
-}
-
-
-.foot-main{
-    text-align: center;
-    justify-content: center;
-    background-image:url("IMG/flight.jpg");
-    overflow: hidden;
-}
-.foot-menu ul{
-    list-style: none;
-    text-align: center;
-    margin-left: 26%;
+.log-btn:hover {
+  background-color: orange;
 }
 
-.foot-menu a{
-    text-decoration: none;
-    color:#0c0c0c;
-    float:left;
-    padding:0px 35px 0px 35px;
-    font-size:medium;
-    transition: 0.2s ease;
+.foot-main {
+  text-align: center;
+  justify-content: center;
+  background-image: url("IMG/flight.jpg");
+  overflow: hidden;
+}
+.foot-menu ul li{
+  list-style: none;
+  text-align: center;
+  margin-left:26%;
 }
 
-.foot-menu a:hover{
-    color: #fefefe;
+.foot-menu a {
+  text-decoration: none;
+  color: #0c0c0c;
+  float: left;
+  padding: 0px 35px 0px 35px;
+  font-size: medium;
+  transition: 0.2s ease;
 }
 
-.icons{
-    text-align: center;
-    justify-items: center;
+.foot-menu a:hover {
+  color: #fefefe;
 }
 
-.foot-menu p{
-    margin-bottom: 10px;
-    font-size: small;
+.icons {
+  text-align: center;
+  justify-items: center;
+}
+
+.foot-menu p {
+  margin-bottom: 10px;
+  font-size: small;
 }
 
 /*this ele*/
